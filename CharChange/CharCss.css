@@ -1,0 +1,16 @@
+.InputBox {
+    height: 100px;
+    width: 110%;
+    border: 2px solid purple;
+    border-radius: 11px;
+
+
+
+}
+
+div {
+    text-align: center;
+    margin: 200px;
+    width: auto;
+
+}
