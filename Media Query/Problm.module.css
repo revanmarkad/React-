@@ -1,0 +1,149 @@
+* {
+    font-family: Sans-serif;
+}
+
+.FristDiv {
+    /* border: 3px solid black; */
+    height: 750px;
+    background-color: rgb(117, 224, 224);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 50px;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 40%;
+    height: auto;
+    cursor: pointer;
+}
+
+.leftNav>img {
+
+    width: 20%;
+
+}
+
+.righttNav {
+    text-align: end;
+    display: flex;
+    gap: 50px;
+
+
+    /* border: 1px solid green; */
+    width: auto;
+    height: auto;
+}
+
+.righttNav>button {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(175, 76, 76);
+   
+}
+
+.impDiv {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 500px;
+    margin-top: 60px;
+}
+
+.left {
+    /* border: 2px solid gold; */
+    width: 49%;
+    height: 500px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.left>h1 {
+    font-size: 60px;
+}
+
+.right {
+    /* border: 2px solid gold; */
+    width: 48%;
+    height: 500px;
+}
+
+.right>img {
+    width: 100%;
+}
+
+.leftLast {
+    margin-top: 40px;
+    /* border: 1px solid grey; */
+    display: flex;
+    gap: 90px;
+    
+}
+
+.leftLast>Div>button {
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(253, 177, 36);
+    border: 1px solid rgb(253, 177, 36);
+    font-size: 10px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(80, 82, 83);
+}
+
+@media screen and (max-width:700px) {
+    .righttNav {
+        display: none;
+    }; 
+     
+
+
+}
+ 
+@media screen and (max-width:700px) {
+   
+    .leftNav {
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid green; */
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    };
+    .impDiv {
+        display: grid;
+        
+    }
+
+}
+ 
+@media screen and (max-width:700px) {
+   
+ 
+    .impDiv {
+        display: grid;
+         
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .right>img {
+        width: 100%;
+        background-color:  rgb(117, 224, 224);
+    }
+}
+ 
