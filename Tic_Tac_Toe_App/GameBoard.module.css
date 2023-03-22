@@ -1,0 +1,61 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    
+  }
+  
+  .boardRow {
+    display: flex;
+    text-align: center;
+    
+  }
+  
+  .square {
+    background-color: #90c0c4;
+    border: 1px solid #242222;
+    font-size: 48px;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  
+  .startAgainButton {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+     
+  }
+  .title{
+    text-align: center;
+    margin-top: 110px;
+  }
+    
+  .startAgainButton{
+    border: none;
+    width: 210px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .button{
+      
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+.allBody{
+    background-image: url( "https://cdn.wallpapersafari.com/7/36/ohJ6Md.jpg");
+    height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+     border: 1px solid skyblue;
+}
