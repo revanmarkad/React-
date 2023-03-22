@@ -1,0 +1,39 @@
+.horizontal_men {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 40px;
+   
+}
+
+.scroll_men  {
+  display: inline-block;
+}
+
+.scroll1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  background-color: #999999;
+  text-align: center;
+  height: auto;
+  border-radius: 15px;
+}
+img{
+ height: 100px;
+ width: 100px;
+ border-radius: 50px;
+  margin-top: 13px;
+}
+.allback{
+ background-image: url("https://media.istockphoto.com/id/913690288/vector/lowpoly-trendy-background-with-copyspace-vector-illustration-used-opacity-layers.jpg?s=612x612&w=0&k=20&c=d2b2nKGz4rFuV2uQDSvve_3ANU2ibNl5h_sfNfoYDj4=");
+  background-size: cover;
+   background-repeat: no-repeat; 
+  height: 620px;
+ 
+}
+ #exp{
+  color: rgb(42, 42, 194);
+  font-size: medium;
+ }
+ 
