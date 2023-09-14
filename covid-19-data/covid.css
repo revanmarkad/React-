@@ -1,0 +1,142 @@
+.page_background {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: 630px;
+
+    position: absolute;
+    width: 100%;
+}
+@keyframes blink{
+    80%{
+        opacity: 0;
+    }
+    80%{
+        opacity: .5;
+    }
+}
+.live_logo{
+    text-align: center;
+    padding-top: 70px;
+    animation: blink 1s linear infinite;
+}
+
+.header{
+    text-align: center;
+}
+
+.main_div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card{
+
+    border: none;
+    height: 120px;
+    width: 230px;
+    margin-top: 40px;
+  font-weight: bolder;
+transition: transform 0.7s ease;
+cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+.total{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  /* font-weight: bolder; */
+    /* word-spacing: 43px; */
+}
+.card__name{
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.card__total{
+      font-size: 20px;
+      width: 80%;
+      margin: auto;
+    letter-spacing: 1px;
+    text-shadow: 
+    -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 
+    -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
+
+}
+
+.div_1{
+    background-color: rgb(72, 36, 148);
+}
+
+
+.div_2{
+    background-color: rgb(0, 167, 53);
+}
+
+
+.div_3{
+    background-color: rgb(205, 205, 27);
+}
+
+.div_4{
+    background-color:  rgb(215, 115, 8);
+}
+
+.div_5{
+    background-color: rgb(38, 115, 111);
+}
+
+.div_6{
+    background-color: rgb(155, 60, 112);
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+  
+
+
+    .main_div{
+         /* background-color: aqua; */
+         display: inline;
+         
+          
+    }
+
+
+
+    .card{
+
+        margin: auto;
+        width: 80%;
+       
+          
+    }
+
+
+
+    .page_background {
+       height: fit-content;
+    }
+
+    .div_6{
+        margin-bottom: 30px;
+    }
+
+    .header{
+
+        margin-bottom: 70px;
+    }
+    
+
+    .card__name{
+       padding-top: 20px;
+    }
+    .header{
+         /* background-color: aqua; */
+         font-size:large;
+    }
+}
